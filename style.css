@@ -1,15 +1,12 @@
 body{
     margin-top: 0px;
-    margin:0px;
-
-    
+    margin:0px; 
 }
 header{
     background-image: url(img/laptop.jpg);
     height: 100%;
     margin-bottom: 70px;
-    background-position: bottom;
-     
+    background-position: bottom;   
 }
 
 nav{
@@ -20,22 +17,15 @@ nav{
     right: 0;
     left: 0;
     position:fixed;
-    box-shadow: 2px 0px 0px red;
-    
+    box-shadow: 2px 0px 0px red;  
 }
 nav ul{
     list-style-type:none;
-    display: flex;
-   
-    
-    
+    display: flex;   
 }
-nav ul li{
-    margin: 0 10px;
-  
-}
-nav ul li:hover {
 
+nav ul li{
+    margin: 0 10px; 
 }
 
 nav ul li a{
@@ -43,32 +33,26 @@ nav ul li a{
     color:#222;
     font-weight: bolder;
 }
+
 nav ul li a:hover{
-    color: #007bff;
-    
-    
+    color: #007bff;   
 }
 nav ul li a:checked{
-    
     background-color: #007bff ;
 }
 
 .nav-icon {
-    align-self: center;
-    
-    
+    align-self: center; 
     text-decoration: none;
-    color: #222;
-    
+    color: #222; 
     margin-left: 50px;
-    
-   
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     font-weight: bolder;
 }
+
 .nav-icon2{
     align-self: center;
     font-weight: bold;
@@ -79,95 +63,87 @@ nav ul li a:checked{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    background-color: #222;
-    
-    
+    background-color: #222;    
     text-decoration: none;
     color: #fff;
     margin-right: 50px;
 }
+
 #nav-icon :hover{
     color: #007bff;
-
 }
-
-
 
 .presentation h2:nth-child(1){
     color: #FDFDFD;
     font-family: shadows into light,cursive;
-    font-size: 32px;
-    
+    font-size: 32px;    
 }
+
 .presentation h2:nth-child(2){
     color: #FDFDFD;
     font-family: source sans pro,sans-serif;
-    font-size: 4em;
- 
+    font-size: 4em; 
 }
+
 .presentation h2:nth-child(3){
     color: #FDFDFD;
     font-family: shadows into light,cursive;
-    font-size: 30px;
-   
+    font-size: 30px;   
 } 
+
 .presentation{
    text-align: center;
    background-color:transparent;
    margin-top: 50px;
    padding: 50px;
 }
+
 .icons-ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-
 }
 
 .icons{
     display: flex;
     justify-content:center;
     align-items: center;
-    
     height: 35px;
     width: 35px;
-    
     border-radius: 50%;
     text-align: center;
     margin: 15px;
 }
+
 .ic-link{
     color:black;
 }
+
 .presentation ul li{
-    background-color: #FDFDFD;
-   
+    background-color: #FDFDFD;   
 }
-.presentation ul li:hover{
-    /* transform:  translateY(-10px); */
-}
+
 .facebook:hover{
     background-color: #3B5999;
-
 }
+
 .twitter:hover{
     background-color: #4A9CEC;
-
 }
+
 .instagram:hover{
     background-color: #D6274D;
-
 }
+
 .linkedin:hover{
    background-color:#1260A2 ;
-
 }
+
 .google:hover{
     background-color:#CE332A ;
-
 }
+
 #btn-hd{
     text-align: center;
     height: 45px;
@@ -178,30 +154,36 @@ nav ul li a:checked{
     background-color: #00b4d9;
     transform: 2s;
 }
+
 #btn-hd:hover{
     background-color: #21CFF3;
 }
+
 /* Section1 */
+
 .idme{
     list-style-type: none;
 }
+
 .idme-items:nth-child(2n){
     color: #1260A2;
 }
+
 #section1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
+
 .myprofile{
     width: 500px;
     height: 600px;
     border: solid 10px #fff;
     box-shadow: 8px 8px 8px 8px  gainsboro;
 }
-.whoami{
-   
+
+.whoami{   
     margin-left: 4em;
     height: 500px;
     width: 500px;
@@ -210,32 +192,31 @@ nav ul li a:checked{
     justify-content: flex-start;
     margin-top:10px;
 }
+
 .whoami h3{
     font-size: 38px;
     font-weight: 700;
     font-family: source sans pro,sans-serif;
 }
+
 .description{
     display: flex;
-    
-
 }
 
 .description div:nth-child(2){
-    
     margin-left: 15px ;
-    
-
 }
-.description div:nth-child(2) p::before{
 
+.description div:nth-child(2) p::before{
     content: ":";
     margin: 15px;
 }
+
 .btn-container{
     display: flex;
     flex-flow: row wrap;
 }
+
 .ct-btn{
     height: 45px;
     width: 200px;
@@ -244,9 +225,11 @@ nav ul li a:checked{
     border:  white;
     border-radius: 5px;
 }
+
 .ct-btn:hover{
     background-color: #F55262;
 }
+
 .dnl-btn{
     height: 45px;
     width: 200px;
@@ -256,10 +239,13 @@ nav ul li a:checked{
     border-radius: 5px;
     margin-right: 10px;
 }
+
 .dnl-btn:hover{
     background-color: #21CFF3;
 }
+
 /* <-- section2 --> */
+
 #section2{
     background-color:#F0F0F0 ;
     text-align: center;
@@ -267,19 +253,23 @@ nav ul li a:checked{
     margin-top: 30px;
    
 }
+
 #section2 h1{
     font-size: 2em;
 }
+
 #section2 div i{
     font-size: 42px;
     color: #55CDE6;
     margin-top: 16px;
 }
+
 .skills{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around; 
 }
+
 .skills-items{
     height: 250px ;
     width: 250px;
@@ -287,28 +277,22 @@ nav ul li a:checked{
     box-shadow: 0 0 1em grey;
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
-    
+    justify-content: space-between ;  
 }
+
 .skills-items:hover{
     box-shadow: 0 0 2em grey ;
 }
-@media (max-width:575px) {
-    .skills-items{
-        background-color: red;
-        margin-bottom: 30px;
-        width:400;
-    }
-   
-    
-}
+
 /* section3 */
+
 #parcours {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 
 }
+
 .parcours-item { 
     background-color: #F2F2F2;
     margin: 12px;
